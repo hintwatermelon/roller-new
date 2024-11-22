@@ -1,0 +1,20 @@
+codemods:
+  only:
+    - codeql:java/unsafe-deserialization
+    - codeql:java/error-message-exposure
+    - codeql:java/http-response-splitting
+    - codeql:java/input-resource-leak
+    - codeql:java/insecure-cookie
+    - codeql:java/database-resource-leak
+    - codeql:java/jexl-expression-injection
+    - codeql:java/jndi-injection
+    - codeql:java/maven-non-https-url
+    - codeql:java/output-resource-leak
+    - codeql:java/predictable-seed
+    - codeql:java/regex-injection
+    - codeql:java/sql-injection
+    - codeql:java/ssrf
+    - codeql:java/missing-jwt-signature-check
+    - codeql:java/xss
+    - codeql:java/xxe
+    - codeql:java/zipslip
